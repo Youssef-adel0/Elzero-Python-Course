@@ -1,9 +1,12 @@
 # Lesson 04: Comments
+#=============================
+
 # This is a single line comment
 
 """
-This is a multi-line
-comment or Docstring
+This is
+Not
+Multiple
+Line
+Comments
 """
-
-# Elzero Python Course
