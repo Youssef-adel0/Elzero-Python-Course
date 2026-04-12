@@ -1,10 +1,26 @@
-# Lesson 11: Strings Intro
-str1 = 'Single'
-str2 = "Double"
-str3 = """Triple for
-Multi-lines"""
+# -------------
+# -- Strings --
+# -------------
 
-# Accessing and slicing strings
-my_string = "I Love Python"
-print(my_string[0]) # Accessing index
-print(my_string[0:6]) # Slicing
+myStringOne = 'This is Single Quote'
+myStringTwo = "This is Double Quotes"
+
+print(myStringOne)
+print(myStringTwo)
+
+myStringThree = 'This is Single Quote "Test"'
+myStringFour = "This is Double Quotes 'Test'"
+
+print(myStringThree)
+print(myStringFour)
+
+myStringFive = '''First
+Second 'Test' "Test"
+Third'''
+
+myStringSix = """First
+Second "Test" \\\ 'Test'
+Third"""
+
+print(myStringFive)
+print(myStringSix)
